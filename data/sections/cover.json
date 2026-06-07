@@ -1,0 +1,188 @@
+{
+    "title": {
+        "locales": {
+            "ru": {
+                "title_short": "Привет!",
+                "title_short_nav": "Обо мне",
+                "title_long_prefix": "Меня зовут...",
+                "title_long": "{{Темур!}}"
+            },
+            "en": {
+                "title_short": "Hello!",
+                "title_short_nav": "About me",
+                "title_long_prefix": "My name is...",
+                "title_long": "{{Temur!}}"
+            },
+            "uz": {
+                "title_short": "Salom!",
+                "title_short_nav": "Men haqimda",
+                "title_long_prefix": "Mening ismim...",
+                "title_long": "{{Temurman!}}"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleInlineList",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "display_as_list_if_width_is_lower_than": 380
+            },
+            "items": [
+                {
+                    "id": 2,
+                    "label": "GitHub",
+                    "link": {"href": "https://github.com/qukssavage", "tooltipString": "see_on_github"},
+                    "faIcon": "fa-brands fa-github"
+                },
+                {
+                    "id": 3,
+                    "label": "Telegram",
+                    "link": {"href": "https://t.me/qoqosq", "tooltipString": "open_website"},
+                    "faIcon": "fa-brands fa-telegram"
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleText",
+            "locales": {
+                "ru": {"title": "{{Немного}} обо мне..."},
+                "en": {"title": "{{A little bit}} about me..."},
+                "uz": {"title": "{{Men haqimda}} bir oz..."}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "ru": {
+                            "text": "<p>Я {{мобильный разработчик}} из [[Ташкента]]. Создаю приложения на <b>React Native</b> и <b>Flutter/Dart</b>, а также разрабатываю веб-сайты на React. Умею выстраивать полный стек: от мобильного клиента до бэкенда на FastAPI.</p><p>Помимо этого пишу <b>Telegram-боты</b> на Python с интеграцией AI (Anthropic API), автоматизирую процессы и деплою на Railway и Render.</p><p>Имею базовые знания в [[кибербезопасности]] — окончил MDIST Computer Information Systems for Business. Открыт для новых проектов!</p>"
+                        },
+                        "en": {
+                            "text": "<p>I'm a {{mobile developer}} from [[Tashkent]]. I build apps with <b>React Native</b> and <b>Flutter/Dart</b>, and create web apps with React. I cover the full stack — from mobile client to FastAPI backend.</p><p>I also build <b>Telegram bots</b> in Python with AI integration (Anthropic API), automate workflows, and deploy to Railway and Render.</p><p>I have foundational knowledge in [[cybersecurity]] — graduated from MDIST Computer Information Systems for Business. Open to new projects!</p>"
+                        },
+                        "uz": {
+                            "text": "<p>Men [[Toshkent]]dan {{mobil dasturchi}}man. <b>React Native</b> va <b>Flutter/Dart</b> bilan ilovalar yarataman, React bilan veb-saytlar ham qilaman. Mobil client'dan FastAPI backend'ga to'liq stekni yopaman.</p><p>Bundan tashqari Python'da <b>Telegram-botlar</b> yozaman: AI integratsiya (Anthropic API), avtomatlashtirish, Railway va Render'ga deploy.</p><p>[[Kibersecurity]] sohasida asosiy bilimlarim bor — MDIST CIS for Business bitirganman. Yangi loyihalarga ochiqman!</p>"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 3,
+            "component": "ArticleInfoList",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "locales": {
+                "ru": {"title": "Мои {{интересы}}"},
+                "en": {"title": "My {{interests}}"},
+                "uz": {"title": "Mening {{qiziqishlarim}}"}
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-brands fa-telegram",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "ru": {
+                            "title": "{{Telegram}} боты",
+                            "text": "Автоматизация и сервисы через Telegram API."
+                        },
+                        "en": {
+                            "title": "{{Telegram}} Bots",
+                            "text": "Automation and services via Telegram API."
+                        },
+                        "uz": {
+                            "title": "{{Telegram}} botlar",
+                            "text": "Telegram API orqali avtomatlashtirish va xizmatlar."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-mobile-screen",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "ru": {
+                            "title": "{{Мобильная}} разработка",
+                            "text": "React Native + Expo и Flutter/Dart."
+                        },
+                        "en": {
+                            "title": "{{Mobile}} Development",
+                            "text": "React Native + Expo and Flutter/Dart."
+                        },
+                        "uz": {
+                            "title": "{{Mobil}} dasturlash",
+                            "text": "React Native + Expo — cross-platform ilovalar yaratish."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-gamepad",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "ru": {
+                            "title": "{{Киберспорт}}",
+                            "text": "Увлекаюсь соревновательными играми."
+                        },
+                        "en": {
+                            "title": "{{Esports}}",
+                            "text": "Passionate about competitive gaming."
+                        },
+                        "uz": {
+                            "title": "{{Kibersport}}",
+                            "text": "Raqobatli o'yinlarga qiziqaman."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-robot",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "ru": {
+                            "title": "{{AI}} интеграции",
+                            "text": "Использую Anthropic API в реальных проектах."
+                        },
+                        "en": {
+                            "title": "{{AI}} Integrations",
+                            "text": "Using Anthropic API in real-world projects."
+                        },
+                        "uz": {
+                            "title": "{{AI}} integratsiyalar",
+                            "text": "Haqiqiy loyihalarda Anthropic API'dan foydalanaman."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

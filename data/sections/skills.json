@@ -1,0 +1,408 @@
+{
+    "title": {
+        "locales": {
+            "ru": {
+                "title_short": "Навыки",
+                "title_short_nav": "Навыки",
+                "title_long_prefix": "Мой",
+                "title_long": "{{Стек технологий}}"
+            },
+            "en": {
+                "title_short": "Skills",
+                "title_short_nav": "Skills",
+                "title_long_prefix": "My",
+                "title_long": "{{Tech Stack}}"
+            },
+            "uz": {
+                "title_short": "Ko'nikmalar",
+                "title_short_nav": "Ko'nikmalar",
+                "title_long_prefix": "Mening",
+                "title_long": "{{Texnologiyalar}}"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleCards",
+            "locales": {
+                "ru": {"title": "Что я {{умею}}"},
+                "en": {"title": "What I {{do}}"},
+                "uz": {"title": "Nima {{qilaman}}"}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-mobile-screen",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "ru": {
+                            "title": "{{Мобильные}} приложения",
+                            "text": "Создаю кроссплатформенные приложения на React Native + Expo и Flutter/Dart. Тестирую на iPhone 11 Pro через Expo Go."
+                        },
+                        "en": {
+                            "title": "{{Mobile}} Apps",
+                            "text": "Building cross-platform apps with React Native + Expo and Flutter/Dart. Testing on iPhone 11 Pro via Expo Go."
+                        },
+                        "uz": {
+                            "title": "{{Mobil}} ilovalar",
+                            "text": "React Native + Expo va Flutter/Dart bilan cross-platform ilovalar. iPhone 11 Pro'da Expo Go orqali test."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-brands fa-react",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "ru": {
+                            "title": "{{Веб}} разработка",
+                            "text": "Пишу сайты и веб-приложения на React + JavaScript. Вёрстка на HTML/CSS/SCSS."
+                        },
+                        "en": {
+                            "title": "{{Web}} Development",
+                            "text": "Building websites and web apps with React + JavaScript. HTML/CSS/SCSS layout."
+                        },
+                        "uz": {
+                            "title": "{{Veb}} dasturlash",
+                            "text": "React + JavaScript bilan saytlar va veb-ilovalar. HTML/CSS/SCSS bilan verstka."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-brands fa-python",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "ru": {
+                            "title": "{{Telegram}} боты",
+                            "text": "Разрабатываю ботов на aiogram/python-telegram-bot с AI (Anthropic API), интеграцией Google Sheets и платёжками Payme, Click, Uzum Bank."
+                        },
+                        "en": {
+                            "title": "{{Telegram}} Bots",
+                            "text": "Building bots with aiogram/python-telegram-bot, AI (Anthropic API), Google Sheets integration and payment systems."
+                        },
+                        "uz": {
+                            "title": "{{Telegram}} botlar",
+                            "text": "aiogram/python-telegram-bot, AI (Anthropic API), Google Sheets integratsiyasi va to'lov tizimlari bilan botlar."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-solid fa-server",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "ru": {
+                            "title": "{{Backend}} и деплой",
+                            "text": "FastAPI + PostgreSQL (Supabase) + Redis (Upstash). Деплой на Railway и Render.com."
+                        },
+                        "en": {
+                            "title": "{{Backend}} & Deploy",
+                            "text": "FastAPI + PostgreSQL (Supabase) + Redis (Upstash). Deployment to Railway and Render.com."
+                        },
+                        "uz": {
+                            "title": "{{Backend}} va deploy",
+                            "text": "FastAPI + PostgreSQL (Supabase) + Redis (Upstash). Railway va Render.com'ga deploy."
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "",
+                    "faIcon": "fa-solid fa-shield-halved",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "ru": {
+                            "title": "{{Кибер}} безопасность",
+                            "text": "Базовые знания в информационной безопасности. Диплом MDIST Computer Information Systems for Business."
+                        },
+                        "en": {
+                            "title": "{{Cyber}} Security",
+                            "text": "Foundational knowledge in information security. MDIST Computer Information Systems for Business graduate."
+                        },
+                        "uz": {
+                            "title": "{{Kiber}} xavfsizlik",
+                            "text": "Axborot xavfsizligi bo'yicha asosiy bilimlar. MDIST Computer Information Systems for Business bitiruvchisi."
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleSkills",
+            "locales": {
+                "ru": {"title": "Языки и {{фреймворки}}"},
+                "en": {"title": "Languages & {{Frameworks}}"},
+                "uz": {"title": "Tillar va {{freymvorklar}}"}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "bar_color": "",
+                "bar_bg_color": ""
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-brands fa-python",
+                    "faIconColors": {"bg": "#3776AB", "fill": "#ffffff"},
+                    "label": "Python",
+                    "value": 85,
+                    "locales": {
+                        "ru": {"title": "Python"},
+                        "en": {"title": "Python"},
+                        "uz": {"title": "Python"}
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-brands fa-js",
+                    "faIconColors": {"bg": "#F7DF1E", "fill": "#000000"},
+                    "label": "JavaScript",
+                    "value": 65,
+                    "locales": {
+                        "ru": {"title": "JavaScript"},
+                        "en": {"title": "JavaScript"},
+                        "uz": {"title": "JavaScript"}
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-brands fa-react",
+                    "faIconColors": {"bg": "#20232a", "fill": "#61DAFB"},
+                    "label": "React / React Native",
+                    "value": 55,
+                    "locales": {
+                        "ru": {"title": "React / React Native"},
+                        "en": {"title": "React / React Native"},
+                        "uz": {"title": "React / React Native"}
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-brands fa-html5",
+                    "faIconColors": {"bg": "#E34F26", "fill": "#ffffff"},
+                    "label": "HTML / CSS / SCSS",
+                    "value": 70,
+                    "locales": {
+                        "ru": {"title": "HTML / CSS / SCSS"},
+                        "en": {"title": "HTML / CSS / SCSS"},
+                        "uz": {"title": "HTML / CSS / SCSS"}
+                    }
+                },
+                {
+                    "id": 5,
+                    "faIcon": "fa-solid fa-bolt",
+                    "faIconColors": {"bg": "#009688", "fill": "#ffffff"},
+                    "label": "FastAPI",
+                    "value": 50,
+                    "locales": {
+                        "ru": {"title": "FastAPI"},
+                        "en": {"title": "FastAPI"},
+                        "uz": {"title": "FastAPI"}
+                    }
+                },
+                {
+                    "id": 6,
+                    "faIcon": "fa-solid fa-database",
+                    "faIconColors": {"bg": "#003B57", "fill": "#ffffff"},
+                    "label": "SQLite / PostgreSQL",
+                    "value": 75,
+                    "locales": {
+                        "ru": {"title": "SQLite / PostgreSQL"},
+                        "en": {"title": "SQLite / PostgreSQL"},
+                        "uz": {"title": "SQLite / PostgreSQL"}
+                    }
+                },
+                {
+                    "id": 7,
+                    "faIcon": "fa-solid fa-mobile-screen",
+                    "faIconColors": {"bg": "#02569B", "fill": "#ffffff"},
+                    "label": "Flutter / Dart",
+                    "value": 45,
+                    "locales": {
+                        "ru": {"title": "Flutter / Dart"},
+                        "en": {"title": "Flutter / Dart"},
+                        "uz": {"title": "Flutter / Dart"}
+                    }
+                },
+                {
+                    "id": 8,
+                    "faIcon": "fa-solid fa-shield-halved",
+                    "faIconColors": {"bg": "#DC2626", "fill": "#ffffff"},
+                    "label": "Cybersecurity",
+                    "value": 40,
+                    "locales": {
+                        "ru": {"title": "Кибербезопасность"},
+                        "en": {"title": "Cybersecurity"},
+                        "uz": {"title": "Kiber xavfsizlik"}
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 3,
+            "component": "ArticleStack",
+            "locales": {
+                "ru": {"title": "Инструменты и {{деплой}}"},
+                "en": {"title": "Tools & {{Deploy}}"},
+                "uz": {"title": "Asboblar va {{deploy}}"}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-brands fa-github",
+                    "faIconColors": {"bg": "#24292e", "fill": "#ffffff"},
+                    "label": "Git / GitHub",
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "ru": {"title": "Git / GitHub"},
+                        "en": {"title": "Git / GitHub"},
+                        "uz": {"title": "Git / GitHub"}
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-train-tram",
+                    "faIconColors": {"bg": "#7C3AED", "fill": "#ffffff"},
+                    "label": "Railway",
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "ru": {"title": "Railway"},
+                        "en": {"title": "Railway"},
+                        "uz": {"title": "Railway"}
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-cloud",
+                    "faIconColors": {"bg": "#46E3B7", "fill": "#000000"},
+                    "label": "Render.com",
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "ru": {"title": "Render.com"},
+                        "en": {"title": "Render.com"},
+                        "uz": {"title": "Render.com"}
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-bolt",
+                    "faIconColors": {"bg": "#3ECF8E", "fill": "#ffffff"},
+                    "label": "Supabase",
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "ru": {"title": "Supabase"},
+                        "en": {"title": "Supabase"},
+                        "uz": {"title": "Supabase"}
+                    }
+                },
+                {
+                    "id": 5,
+                    "faIcon": "fa-solid fa-memory",
+                    "faIconColors": {"bg": "#FF4438", "fill": "#ffffff"},
+                    "label": "Redis / Upstash",
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "ru": {"title": "Redis / Upstash"},
+                        "en": {"title": "Redis / Upstash"},
+                        "uz": {"title": "Redis / Upstash"}
+                    }
+                },
+                {
+                    "id": 6,
+                    "faIcon": "fa-solid fa-code",
+                    "faIconColors": {"bg": "#007ACC", "fill": "#ffffff"},
+                    "label": "VS Code",
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "ru": {"title": "VS Code"},
+                        "en": {"title": "VS Code"},
+                        "uz": {"title": "VS Code"}
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 4,
+            "component": "ArticleSkills",
+            "locales": {
+                "ru": {"title": "Знание {{языков}}"},
+                "en": {"title": "Spoken {{Languages}}"},
+                "uz": {"title": "{{Til}} bilimlari"}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "bar_color": "",
+                "bar_bg_color": ""
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-language",
+                    "faIconColors": {"bg": "#4f46e5", "fill": "#ffffff"},
+                    "label": "Русский",
+                    "percentage": 100,
+                    "locales": {
+                        "ru": {"title": "Русский", "level": "Свободно"},
+                        "en": {"title": "Russian", "level": "Fluent"},
+                        "uz": {"title": "Rus tili", "level": "Erkin"}
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-language",
+                    "faIconColors": {"bg": "#0ea5e9", "fill": "#ffffff"},
+                    "label": "English",
+                    "percentage": 90,
+                    "locales": {
+                        "ru": {"title": "Английский", "level": "Свободно"},
+                        "en": {"title": "English", "level": "Fluent"},
+                        "uz": {"title": "Ingliz tili", "level": "Erkin"}
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-language",
+                    "faIconColors": {"bg": "#10b981", "fill": "#ffffff"},
+                    "label": "O'zbekcha",
+                    "percentage": 65,
+                    "locales": {
+                        "ru": {"title": "Узбекский", "level": "Разговорный"},
+                        "en": {"title": "Uzbek", "level": "Conversational"},
+                        "uz": {"title": "O'zbek tili", "level": "So'zlashuv"}
+                    }
+                }
+            ]
+        }
+    ]
+}
