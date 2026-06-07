@@ -1,0 +1,61 @@
+@import "theme-variables-builder";
+
+$primary: #4f46e5;
+$secondary: darken(#798287, 10%);
+$dark: #e0e7ff;
+$danger: #932626;
+$muted: #6b7280;
+
+$base-bg: #c7d2fe;
+$base-bg-light: #dde4ff;
+$base-bg-dark: #a5b4fc;
+
+$texts: #1e1b4b;
+$texts-inverted: #EEE;
+
+$base-container-bg: #f5f3ff;
+$base-container-bg-accent: #ddd6fe;
+$base-popover-bg: #ede9fe;
+$base-boards: lighten(#ede9fe, 2%);
+$base-info-badges: lighten(#ddd6fe, 3%);
+$empty: #ffffff;
+
+$borders: #e0e7ff;
+$borders-nav-mobile: rgba(white, 0.15);
+$borders-nav-mobile-accent: rgba(white, 0.6);
+$scrollbar-track: #ddd6fe;
+$scrollbar-thumb: #818cf8;
+
+[data-theme="light"] {
+    @include build-theme(
+        false,
+        $primary,
+        $secondary,
+        $dark,
+        $danger,
+        $muted,
+        $base-bg,
+        $base-bg-light,
+        $base-bg-dark,
+        $texts,
+        $texts-inverted,
+        $base-boards,
+        $texts,
+        $borders-nav-mobile-accent,
+        $base-boards,
+        $primary,
+        $primary,
+        $texts-inverted,
+        $borders-nav-mobile,
+        $base-container-bg,
+        $base-container-bg,
+        $base-popover-bg,
+        $base-boards,
+        $base-info-badges,
+        $texts,
+        $empty,
+        $borders,
+        $scrollbar-track,
+        $scrollbar-thumb,
+    );
+}

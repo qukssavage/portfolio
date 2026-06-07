@@ -1,0 +1,923 @@
+{
+    "title": {
+        "locales": {
+            "ru": {
+                "title_short": "Проекты",
+                "title_short_nav": "Проекты",
+                "title_long_prefix": "Мои",
+                "title_long": "{{Проекты}}"
+            },
+            "en": {
+                "title_short": "Projects",
+                "title_short_nav": "Projects",
+                "title_long_prefix": "My",
+                "title_long": "{{Projects}}"
+            },
+            "uz": {
+                "title_short": "Loyihalar",
+                "title_short_nav": "Loyihalar",
+                "title_long_prefix": "Mening",
+                "title_long": "{{Loyihalarim}}"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticlePortfolio",
+            "locales": {
+                "ru": {
+                    "category_all": "Все",
+                    "category_react": "React",
+                    "category_web": "HTML/CSS/JS",
+                    "category_mobile": "Мобильные",
+                    "category_bots": "Боты"
+                },
+                "en": {
+                    "category_all": "All",
+                    "category_react": "React",
+                    "category_web": "HTML/CSS/JS",
+                    "category_mobile": "Mobile",
+                    "category_bots": "Bots"
+                },
+                "uz": {
+                    "category_all": "Hammasi",
+                    "category_react": "React",
+                    "category_web": "HTML/CSS/JS",
+                    "category_mobile": "Mobil",
+                    "category_bots": "Botlar"
+                }
+            },
+            "settings": {
+                "categorize_by": [
+                    "category_react",
+                    "category_web",
+                    "category_mobile",
+                    "category_bots"
+                ],
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "categoryId": "category_mobile",
+                    "img": "",
+                    "faIcon": "fa-solid fa-comments",
+                    "faIconColors": {
+                        "bg": "#6366F1",
+                        "fill": "#ffffff"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/qukssavage/lumio-backend",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "9:16",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "ru": {
+                            "title": "Lumio",
+                            "text": "Мой текущий основной проект — мессенджер. <b>React Native + Expo</b>, <b>FastAPI</b>, <b>PostgreSQL (Supabase)</b>, <b>Redis (Upstash)</b>. Деплой на Render.com.",
+                            "tags": [
+                                "🔨 В разработке",
+                                "React Native",
+                                "Expo",
+                                "FastAPI",
+                                "PostgreSQL",
+                                "Redis"
+                            ]
+                        },
+                        "en": {
+                            "title": "Lumio",
+                            "text": "My current main project — a messenger app. <b>React Native + Expo</b>, <b>FastAPI</b>, <b>PostgreSQL (Supabase)</b>, <b>Redis (Upstash)</b>. Deployed on Render.com.",
+                            "tags": [
+                                "🔨 In Progress",
+                                "React Native",
+                                "Expo",
+                                "FastAPI",
+                                "PostgreSQL",
+                                "Redis"
+                            ]
+                        },
+                        "uz": {
+                            "title": "Lumio",
+                            "text": "Hozirgi asosiy loyiham — messenjer. <b>React Native + Expo</b>, <b>FastAPI</b>, <b>PostgreSQL (Supabase)</b>, <b>Redis (Upstash)</b>. Render.com'da deploy.",
+                            "tags": [
+                                "🔨 Ishlanmoqda",
+                                "React Native",
+                                "Expo",
+                                "FastAPI",
+                                "PostgreSQL",
+                                "Redis"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "categoryId": "category_react",
+                    "img": "",
+                    "faIcon": "fa-solid fa-comment-dots",
+                    "faIconColors": {
+                        "bg": "#0ea5e9",
+                        "fill": "#ffffff"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/qukssavage/chatvue",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "ru": {
+                            "title": "ChatVue",
+                            "text": "Чат-приложение на <b>React + Vite</b>, стили на <b>SCSS</b>.",
+                            "tags": [
+                                "🎓 Pet-проект",
+                                "React",
+                                "Vite",
+                                "SCSS"
+                            ]
+                        },
+                        "en": {
+                            "title": "ChatVue",
+                            "text": "Chat application built with <b>React + Vite</b>, styled with <b>SCSS</b>.",
+                            "tags": [
+                                "🎓 Pet Project",
+                                "React",
+                                "Vite",
+                                "SCSS"
+                            ]
+                        },
+                        "uz": {
+                            "title": "ChatVue",
+                            "text": "<b>React + Vite</b> bilan qurilgan, <b>SCSS</b> bilan stilizatsiya qilingan chat ilovasi.",
+                            "tags": [
+                                "🎓 Pet-loyiha",
+                                "React",
+                                "Vite",
+                                "SCSS"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "categoryId": "category_react",
+                    "img": "",
+                    "faIcon": "fa-solid fa-car",
+                    "faIconColors": {
+                        "bg": "#dc2626",
+                        "fill": "#ffffff"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/qukssavage/porschereact",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "ru": {
+                            "title": "PorscheReact",
+                            "text": "Лендинг автомобильного бренда на <b>React + Vite</b>.",
+                            "tags": [
+                                "🎓 Pet-проект",
+                                "React",
+                                "Vite",
+                                "Landing"
+                            ]
+                        },
+                        "en": {
+                            "title": "PorscheReact",
+                            "text": "Car brand landing page built with <b>React + Vite</b>.",
+                            "tags": [
+                                "🎓 Pet Project",
+                                "React",
+                                "Vite",
+                                "Landing"
+                            ]
+                        },
+                        "uz": {
+                            "title": "PorscheReact",
+                            "text": "<b>React + Vite</b> bilan qurilgan avtomobil brendi landing sahifasi.",
+                            "tags": [
+                                "🎓 Pet-loyiha",
+                                "React",
+                                "Vite",
+                                "Landing"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "categoryId": "category_web",
+                    "img": "",
+                    "faIcon": "fa-solid fa-trophy",
+                    "faIconColors": {
+                        "bg": "#d97706",
+                        "fill": "#ffffff"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/qukssavage/reactsport",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "ru": {
+                            "title": "ReactSport",
+                            "text": "Спортивный сайт на чистом <b>HTML/CSS</b>.",
+                            "tags": [
+                                "🎓 Pet-проект",
+                                "HTML",
+                                "CSS"
+                            ]
+                        },
+                        "en": {
+                            "title": "ReactSport",
+                            "text": "Sports website built with pure <b>HTML/CSS</b>.",
+                            "tags": [
+                                "🎓 Pet Project",
+                                "HTML",
+                                "CSS"
+                            ]
+                        },
+                        "uz": {
+                            "title": "ReactSport",
+                            "text": "Sof <b>HTML/CSS</b> bilan qurilgan sport sayti.",
+                            "tags": [
+                                "🎓 Pet-loyiha",
+                                "HTML",
+                                "CSS"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "categoryId": "category_web",
+                    "img": "",
+                    "faIcon": "fa-solid fa-utensils",
+                    "faIconColors": {
+                        "bg": "#f59e0b",
+                        "fill": "#ffffff"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/qukssavage/food100",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "ru": {
+                            "title": "Food100",
+                            "text": "Сайт доставки еды на <b>HTML/CSS/JS</b>.",
+                            "tags": [
+                                "🎓 Pet-проект",
+                                "HTML",
+                                "CSS",
+                                "JavaScript"
+                            ]
+                        },
+                        "en": {
+                            "title": "Food100",
+                            "text": "Food delivery website built with <b>HTML/CSS/JS</b>.",
+                            "tags": [
+                                "🎓 Pet Project",
+                                "HTML",
+                                "CSS",
+                                "JavaScript"
+                            ]
+                        },
+                        "uz": {
+                            "title": "Food100",
+                            "text": "<b>HTML/CSS/JS</b> bilan qurilgan ovqat yetkazib berish sayti.",
+                            "tags": [
+                                "🎓 Pet-loyiha",
+                                "HTML",
+                                "CSS",
+                                "JavaScript"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "categoryId": "category_web",
+                    "img": "",
+                    "faIcon": "fa-solid fa-burger",
+                    "faIconColors": {
+                        "bg": "#b45309",
+                        "fill": "#ffffff"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/qukssavage/dburger",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "ru": {
+                            "title": "DBurger",
+                            "text": "Сайт бургерного ресторана на <b>HTML/CSS/JS</b>.",
+                            "tags": [
+                                "🎓 Pet-проект",
+                                "HTML",
+                                "CSS",
+                                "JavaScript"
+                            ]
+                        },
+                        "en": {
+                            "title": "DBurger",
+                            "text": "Burger restaurant website built with <b>HTML/CSS/JS</b>.",
+                            "tags": [
+                                "🎓 Pet Project",
+                                "HTML",
+                                "CSS",
+                                "JavaScript"
+                            ]
+                        },
+                        "uz": {
+                            "title": "DBurger",
+                            "text": "<b>HTML/CSS/JS</b> bilan qurilgan burger restoran sayti.",
+                            "tags": [
+                                "🎓 Pet-loyiha",
+                                "HTML",
+                                "CSS",
+                                "JavaScript"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "categoryId": "category_web",
+                    "img": "",
+                    "faIcon": "fa-solid fa-paint-brush",
+                    "faIconColors": {
+                        "bg": "#111827",
+                        "fill": "#ffffff"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/qukssavage/brutalism",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "ru": {
+                            "title": "Brutalism",
+                            "text": "Сайт в стиле брутализма на чистом <b>HTML/CSS</b>.",
+                            "tags": [
+                                "🎓 Pet-проект",
+                                "HTML",
+                                "CSS",
+                                "Design"
+                            ]
+                        },
+                        "en": {
+                            "title": "Brutalism",
+                            "text": "Brutalism-style website built with pure <b>HTML/CSS</b>.",
+                            "tags": [
+                                "🎓 Pet Project",
+                                "HTML",
+                                "CSS",
+                                "Design"
+                            ]
+                        },
+                        "uz": {
+                            "title": "Brutalism",
+                            "text": "Sof <b>HTML/CSS</b> bilan qurilgan brutalizm uslubidagi sayt.",
+                            "tags": [
+                                "🎓 Pet-loyiha",
+                                "HTML",
+                                "CSS",
+                                "Design"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 8,
+                    "categoryId": "category_web",
+                    "img": "",
+                    "faIcon": "fa-solid fa-leaf",
+                    "faIconColors": {
+                        "bg": "#065f46",
+                        "fill": "#ffffff"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/qukssavage/feng-shui",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "ru": {
+                            "title": "Feng Shui",
+                            "text": "Тематический сайт на чистом <b>HTML/CSS</b>.",
+                            "tags": [
+                                "🎓 Pet-проект",
+                                "HTML",
+                                "CSS",
+                                "Design"
+                            ]
+                        },
+                        "en": {
+                            "title": "Feng Shui",
+                            "text": "Themed website built with pure <b>HTML/CSS</b>.",
+                            "tags": [
+                                "🎓 Pet Project",
+                                "HTML",
+                                "CSS",
+                                "Design"
+                            ]
+                        },
+                        "uz": {
+                            "title": "Feng Shui",
+                            "text": "Sof <b>HTML/CSS</b> bilan qurilgan mavzuli sayt.",
+                            "tags": [
+                                "🎓 Pet-loyiha",
+                                "HTML",
+                                "CSS",
+                                "Design"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 9,
+                    "categoryId": "category_web",
+                    "img": "",
+                    "faIcon": "fa-solid fa-hard-hat",
+                    "faIconColors": {
+                        "bg": "#1d4ed8",
+                        "fill": "#ffffff"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/qukssavage/contractorX",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "ru": {
+                            "title": "ContractorX",
+                            "text": "Корпоративный сайт подрядчика на <b>HTML/CSS</b>.",
+                            "tags": [
+                                "🎓 Pet-проект",
+                                "HTML",
+                                "CSS"
+                            ]
+                        },
+                        "en": {
+                            "title": "ContractorX",
+                            "text": "Contractor company website built with <b>HTML/CSS</b>.",
+                            "tags": [
+                                "🎓 Pet Project",
+                                "HTML",
+                                "CSS"
+                            ]
+                        },
+                        "uz": {
+                            "title": "ContractorX",
+                            "text": "<b>HTML/CSS</b> bilan qurilgan pudratchi kompaniya sayti.",
+                            "tags": [
+                                "🎓 Pet-loyiha",
+                                "HTML",
+                                "CSS"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 10,
+                    "categoryId": "category_web",
+                    "img": "",
+                    "faIcon": "fa-solid fa-fire",
+                    "faIconColors": {
+                        "bg": "#dc2626",
+                        "fill": "#ffffff"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/qukssavage/kazama",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "ru": {
+                            "title": "Kazama",
+                            "text": "Фронтенд-проект на <b>HTML/CSS/JS</b>.",
+                            "tags": [
+                                "HTML",
+                                "CSS",
+                                "JavaScript"
+                            ]
+                        },
+                        "en": {
+                            "title": "Kazama",
+                            "text": "Frontend project built with <b>HTML/CSS/JS</b>.",
+                            "tags": [
+                                "HTML",
+                                "CSS",
+                                "JavaScript"
+                            ]
+                        },
+                        "uz": {
+                            "title": "Kazama",
+                            "text": "<b>HTML/CSS/JS</b> bilan qurilgan frontend loyiha.",
+                            "tags": [
+                                "HTML",
+                                "CSS",
+                                "JavaScript"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 11,
+                    "categoryId": "category_bots",
+                    "img": "",
+                    "faIcon": "fa-solid fa-truck",
+                    "faIconColors": {
+                        "bg": "#7C3AED",
+                        "fill": "#ffffff"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://t.me/logiscanbot",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-brands fa-telegram"
+                            },
+                            {
+                                "href": "https://web-production-fd506.up.railway.app/banner",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-image"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "ru": {
+                            "title": "LogiScan",
+                            "text": "Telegram-бот для логистов. Извлекает данные из <b>Rate Confirmation</b> через <b>Anthropic API</b>.",
+                            "tags": [
+                                "🔨 В разработке",
+                                "Python",
+                                "Anthropic API",
+                                "SQLAlchemy"
+                            ]
+                        },
+                        "en": {
+                            "title": "LogiScan",
+                            "text": "Telegram bot for logistics. Extracts data from <b>Rate Confirmation</b> via <b>Anthropic API</b>.",
+                            "tags": [
+                                "🔨 In Progress",
+                                "Python",
+                                "Anthropic API",
+                                "SQLAlchemy"
+                            ]
+                        },
+                        "uz": {
+                            "title": "LogiScan",
+                            "text": "Logistlar uchun Telegram-bot. <b>Anthropic API</b> orqali <b>Rate Confirmation</b>'dan ma'lumot oladi.",
+                            "tags": [
+                                "🔨 Ishlanmoqda",
+                                "Python",
+                                "Anthropic API",
+                                "SQLAlchemy"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 12,
+                    "categoryId": "category_bots",
+                    "img": "",
+                    "faIcon": "fa-solid fa-school",
+                    "faIconColors": {
+                        "bg": "#059669",
+                        "fill": "#ffffff"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://t.me/school61anketi_bot",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-brands fa-telegram"
+                            },
+                            {
+                                "href": "https://github.com/qukssavage/school61bot",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "ru": {
+                            "title": "School Survey",
+                            "text": "Сбор школьных анкет → запись в <b>Google Sheets</b>.",
+                            "tags": [
+                                "Python",
+                                "gspread",
+                                "Google Sheets"
+                            ]
+                        },
+                        "en": {
+                            "title": "School Survey",
+                            "text": "School questionnaire collection → writes to <b>Google Sheets</b>.",
+                            "tags": [
+                                "Python",
+                                "gspread",
+                                "Google Sheets"
+                            ]
+                        },
+                        "uz": {
+                            "title": "School Survey",
+                            "text": "Maktab anketalari to'plash → <b>Google Sheets</b>'ga yozish.",
+                            "tags": [
+                                "Python",
+                                "gspread",
+                                "Google Sheets"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 13,
+                    "categoryId": "category_mobile",
+                    "img": "",
+                    "faIcon": "fa-solid fa-cloud-sun",
+                    "faIconColors": {
+                        "bg": "#0ea5e9",
+                        "fill": "#ffffff"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/qukssavage/Weather-App",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "9:16",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "ru": {
+                            "title": "Weather App",
+                            "text": "Приложение погоды на <b>Flutter/Dart</b>.",
+                            "tags": [
+                                "🎓 Pet-проект",
+                                "Flutter",
+                                "Dart"
+                            ]
+                        },
+                        "en": {
+                            "title": "Weather App",
+                            "text": "Weather application built with <b>Flutter/Dart</b>.",
+                            "tags": [
+                                "🎓 Pet Project",
+                                "Flutter",
+                                "Dart"
+                            ]
+                        },
+                        "uz": {
+                            "title": "Weather App",
+                            "text": "<b>Flutter/Dart</b> bilan qurilgan ob-havo ilovasi.",
+                            "tags": [
+                                "🎓 Pet-loyiha",
+                                "Flutter",
+                                "Dart"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 14,
+                    "categoryId": "category_mobile",
+                    "img": "",
+                    "faIcon": "fa-solid fa-note-sticky",
+                    "faIconColors": {
+                        "bg": "#f59e0b",
+                        "fill": "#ffffff"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/qukssavage/Notes-App",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "9:16",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "ru": {
+                            "title": "Notes App",
+                            "text": "Приложение заметок на <b>Flutter/Dart</b>.",
+                            "tags": [
+                                "🎓 Pet-проект",
+                                "Flutter",
+                                "Dart"
+                            ]
+                        },
+                        "en": {
+                            "title": "Notes App",
+                            "text": "Notes application built with <b>Flutter/Dart</b>.",
+                            "tags": [
+                                "🎓 Pet Project",
+                                "Flutter",
+                                "Dart"
+                            ]
+                        },
+                        "uz": {
+                            "title": "Notes App",
+                            "text": "<b>Flutter/Dart</b> bilan qurilgan eslatmalar ilovasi.",
+                            "tags": [
+                                "🎓 Pet-loyiha",
+                                "Flutter",
+                                "Dart"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 16,
+                    "categoryId": "category_bots",
+                    "img": "",
+                    "faIcon": "fa-solid fa-graduation-cap",
+                    "faIconColors": {
+                        "bg": "#0369a1",
+                        "fill": "#ffffff"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://t.me/ielts_helper_uz_bot",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-brands fa-telegram"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "ru": {
+                            "title": "IELTS Helper",
+                            "text": "Telegram-бот для подготовки к <b>IELTS</b>.",
+                            "tags": [
+                                "🔨 В разработке",
+                                "Python"
+                            ]
+                        },
+                        "en": {
+                            "title": "IELTS Helper",
+                            "text": "Telegram bot for <b>IELTS</b> preparation.",
+                            "tags": [
+                                "🔨 In Progress",
+                                "Python"
+                            ]
+                        },
+                        "uz": {
+                            "title": "IELTS Helper",
+                            "text": "<b>IELTS</b> tayyorgarligiga mo'ljallangan Telegram-bot.",
+                            "tags": [
+                                "🔨 Ishlanmoqda",
+                                "Python"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 15,
+                    "categoryId": "category_bots",
+                    "img": "",
+                    "faIcon": "fa-solid fa-chart-line",
+                    "faIconColors": {
+                        "bg": "#D97706",
+                        "fill": "#ffffff"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://t.me/botdata365_bot",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-brands fa-telegram"
+                            },
+                            {
+                                "href": "https://github.com/qukssavage",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "ru": {
+                            "title": "Balans",
+                            "text": "Финансовый учёт для бизнеса. Парсинг через <b>regex</b>, деплой на Railway.",
+                            "tags": [
+                                "Python",
+                                "aiosqlite",
+                                "Railway"
+                            ]
+                        },
+                        "en": {
+                            "title": "Balans",
+                            "text": "Business financial accounting. <b>Regex</b>-based parsing, deployed to Railway.",
+                            "tags": [
+                                "Python",
+                                "aiosqlite",
+                                "Railway"
+                            ]
+                        },
+                        "uz": {
+                            "title": "Balans",
+                            "text": "Biznes uchun moliyaviy hisobot. <b>Regex</b> orqali parsing, Railway'da deploy.",
+                            "tags": [
+                                "Python",
+                                "aiosqlite",
+                                "Railway"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

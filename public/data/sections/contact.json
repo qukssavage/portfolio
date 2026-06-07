@@ -1,0 +1,159 @@
+{
+    "title": {
+        "locales": {
+            "ru": {
+                "title_short": "Ссылки",
+                "title_short_nav": "Ссылки",
+                "title_long_prefix": "Мои",
+                "title_long": "{{Ссылки}}"
+            },
+            "en": {
+                "title_short": "Links",
+                "title_short_nav": "Links",
+                "title_long_prefix": "My",
+                "title_long": "{{Links}}"
+            },
+            "uz": {
+                "title_short": "Havolalar",
+                "title_short_nav": "Havolalar",
+                "title_long_prefix": "Mening",
+                "title_long": "{{Havolalarim}}"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleInfoList",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "locales": {
+                "ru": {"title": "Мои {{ссылки}}"},
+                "en": {"title": "My {{links}}"},
+                "uz": {"title": "Mening {{havolalarim}}"}
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-brands fa-telegram",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": "@qoqosq",
+                    "link": {"href": "https://t.me/qoqosq", "tooltipString": "open_website"},
+                    "copyToClipboardButton": true,
+                    "locales": {
+                        "ru": {"title": "Telegram"},
+                        "en": {"title": "Telegram"},
+                        "uz": {"title": "Telegram"}
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-regular fa-envelope",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": "temurislamovq@gmail.com",
+                    "link": {"href": "mailto:temurislamovq@gmail.com", "tooltipString": "email_me"},
+                    "copyToClipboardButton": true,
+                    "locales": {
+                        "ru": {"title": "E-mail"},
+                        "en": {"title": "E-mail"},
+                        "uz": {"title": "E-mail"}
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-brands fa-github",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": "github.com/qukssavage",
+                    "link": {"href": "https://github.com/qukssavage", "tooltipString": "see_on_github"},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "ru": {"title": "GitHub"},
+                        "en": {"title": "GitHub"},
+                        "uz": {"title": "GitHub"}
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-brands fa-telegram",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": "@quqssq",
+                    "link": {"href": "https://t.me/quqssq", "tooltipString": "open_website"},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "ru": {"title": "Telegram канал"},
+                        "en": {"title": "Telegram Channel"},
+                        "uz": {"title": "Telegram kanal"}
+                    }
+                },
+                {
+                    "id": 5,
+                    "faIcon": "fa-brands fa-youtube",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": "@-quks",
+                    "link": {"href": "https://www.youtube.com/@-quks", "tooltipString": "open_website"},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "ru": {"title": "YouTube"},
+                        "en": {"title": "YouTube"},
+                        "uz": {"title": "YouTube"}
+                    }
+                },
+                {
+                    "id": 6,
+                    "faIcon": "fa-brands fa-twitch",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": "thequks",
+                    "link": {"href": "https://www.twitch.tv/thequks", "tooltipString": "open_website"},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "ru": {"title": "Twitch"},
+                        "en": {"title": "Twitch"},
+                        "uz": {"title": "Twitch"}
+                    }
+                },
+                {
+                    "id": 7,
+                    "faIcon": "fa-brands fa-tiktok",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": "@thequks",
+                    "link": {"href": "https://www.tiktok.com/@thequks", "tooltipString": "open_website"},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "ru": {"title": "TikTok"},
+                        "en": {"title": "TikTok"},
+                        "uz": {"title": "TikTok"}
+                    }
+                },
+                {
+                    "id": 8,
+                    "faIcon": "fa-brands fa-instagram",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": "@bxyinskimask",
+                    "link": {"href": "https://www.instagram.com/bxyinskimask", "tooltipString": "open_website"},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "ru": {"title": "Instagram"},
+                        "en": {"title": "Instagram"},
+                        "uz": {"title": "Instagram"}
+                    }
+                },
+                {
+                    "id": 9,
+                    "faIcon": "fa-brands fa-x-twitter",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": "@quks_",
+                    "link": {"href": "https://x.com/quks_", "tooltipString": "open_website"},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "ru": {"title": "X (Twitter)"},
+                        "en": {"title": "X (Twitter)"},
+                        "uz": {"title": "X (Twitter)"}
+                    }
+                }
+            ]
+        }
+    ]
+}

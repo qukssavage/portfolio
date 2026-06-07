@@ -1,0 +1,36 @@
+$breakpoints: (
+  xs:   0,
+  sm:   576,
+  md:   768,
+  lg:   992,
+  xl:   1200,
+  xxl:  1400
+);
+
+@function breakpoint-next($name) {
+  $keys: map-keys($breakpoints);
+  $i: index($keys, $name);
+  @if $i != null and $i < length($keys) {
+    @return nth($keys, $i + 1);
+  }
+  @return null;
+}
+
+@mixin media-breakpoint-down($name) {
+  $next: breakpoint-next($name);
+  @if $next {
+    $max: map-get($breakpoints, $next) - 0.02;
+    @media (max-width: #{$max}px) { @content; }
+  } @else {
+    @content;
+  }
+}
+
+@mixin media-breakpoint-up($name) {
+  $min: map-get($breakpoints, $name);
+  @if $min != 0 {
+    @media (min-width: #{$min}px) { @content; }
+  } @else {
+    @content;
+  }
+}

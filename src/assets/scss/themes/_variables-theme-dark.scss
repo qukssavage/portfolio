@@ -1,0 +1,59 @@
+@import "theme-variables-builder";
+
+$primary: #818cf8;
+$secondary: #a4afb5;
+$dark: #161616;
+$danger: #fdd2d2;
+$muted: #6c757d;
+
+$base-bg: #0f0f1a;
+$base-bg-light: #1a1a2e;
+$base-bg-dark: #0a0a12;
+
+$texts: #EEEEEE;
+$texts-inverted: #111111;
+
+$base-container-bg: #16213e;
+$base-popover-bg: #0d0d1a;
+$base-boards: lighten($base-container-bg, 3%);
+$base-info-badges: lighten($dark, 3%);
+$empty: darken($base-container-bg, 3%);
+$empty-accent: #10102a;
+
+$borders: #1e2048;
+$scrollbar-track: #0f0f1a;
+$scrollbar-thumb: #3730a3;
+
+:root {
+    @include build-theme(
+        true,
+        $primary,
+        $secondary,
+        $dark,
+        $danger,
+        $muted,
+        $base-bg,
+        $base-bg-light,
+        $base-bg-dark,
+        $texts,
+        $texts-inverted,
+        $empty-accent,
+        $texts,
+        $borders,
+        $empty-accent,
+        $primary,
+        $borders,
+        $primary,
+        $primary,
+        $base-container-bg,
+        $base-container-bg,
+        $base-popover-bg,
+        $base-boards,
+        $base-info-badges,
+        $texts,
+        $empty,
+        $borders,
+        $scrollbar-track,
+        $scrollbar-thumb,
+    );
+}

@@ -1,0 +1,28 @@
+{
+    "sections": [
+        {
+            "id": "about",
+            "categoryId": "home",
+            "jsonPath": "/data/sections/cover.json",
+            "faIcon": "fa-solid fa-address-card"
+        },
+        {
+            "id": "skills",
+            "categoryId": "skills",
+            "jsonPath": "/data/sections/skills.json",
+            "faIcon": "fa-solid fa-tools"
+        },
+        {
+            "id": "portfolio",
+            "categoryId": "projects",
+            "jsonPath": "/data/sections/portfolio.json",
+            "faIcon": "fa-solid fa-folder-open"
+        },
+        {
+            "id": "contact",
+            "categoryId": "contact",
+            "jsonPath": "/data/sections/contact.json",
+            "faIcon": "fa-solid fa-link"
+        }
+    ]
+}

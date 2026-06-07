@@ -1,0 +1,40 @@
+{
+    "categories": [
+        {
+            "id": "home",
+            "faIcon": "fa-regular fa-user",
+            "locales": {
+                "ru": {"title": "Главная"},
+                "en": {"title": "Home"},
+                "uz": {"title": "Bosh sahifa"}
+            }
+        },
+        {
+            "id": "skills",
+            "faIcon": "fa-solid fa-code",
+            "locales": {
+                "ru": {"title": "Навыки"},
+                "en": {"title": "Skills"},
+                "uz": {"title": "Ko'nikmalar"}
+            }
+        },
+        {
+            "id": "projects",
+            "faIcon": "fa-regular fa-folder-open",
+            "locales": {
+                "ru": {"title": "Проекты"},
+                "en": {"title": "Projects"},
+                "uz": {"title": "Loyihalar"}
+            }
+        },
+        {
+            "id": "contact",
+            "faIcon": "fa-regular fa-envelope",
+            "locales": {
+                "ru": {"title": "Контакт"},
+                "en": {"title": "Contact"},
+                "uz": {"title": "Aloqa"}
+            }
+        }
+    ]
+}
