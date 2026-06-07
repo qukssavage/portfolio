@@ -29,11 +29,11 @@
         },
         {
             "id": "contact",
-            "faIcon": "fa-regular fa-envelope",
+            "faIcon": "fa-solid fa-link",
             "locales": {
-                "ru": {"title": "Контакт"},
-                "en": {"title": "Contact"},
-                "uz": {"title": "Aloqa"}
+                "ru": {"title": "Ссылки"},
+                "en": {"title": "Links"},
+                "uz": {"title": "Havolalar"}
             }
         }
     ]

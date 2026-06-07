@@ -18,9 +18,9 @@ $breakpoints: (
 }
 
 @mixin media-breakpoint-down($name) {
-  $next: breakpoint-next($name);
-  @if $next {
-    $max: map-get($breakpoints, $next) - 0.02;
+  $val: map-get($breakpoints, $name);
+  @if $val and $val > 0 {
+    $max: $val - 0.02;
     @media (max-width: #{$max}px) { @content; }
   } @else {
     @content;
