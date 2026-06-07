@@ -11,7 +11,7 @@
 ## Стек
 
 - React + Vite
-- SCSS (без Bootstrap — кастомные стили)
+- SCSS (кастомные стили)
 - EmailJS
 - Поддержка трёх языков: RU / EN / UZ
 
