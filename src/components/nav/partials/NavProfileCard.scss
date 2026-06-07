@@ -9,6 +9,7 @@ div.nav-profile-card {
     @media(min-height: 800px) {--avatar-size: 155px}
     @media(max-height: 690px) {--avatar-size: 130px}
     @media(max-height: 650px) {--avatar-size: 120px}
+    @media(max-width: 479.98px) {--avatar-size: 110px; --info-margin-top: 8px;}
 
     display: flex;
     align-items: center;
