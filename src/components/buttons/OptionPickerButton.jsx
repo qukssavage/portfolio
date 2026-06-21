@@ -22,7 +22,7 @@ function OptionPickerButton({ mode, options, selectedOptionId, onOptionSelected,
         (mode === OptionPickerButton.Modes.MODE_AUTO && options.length <= 2)
 
     const caretIcon = !buttonBehaviorEnabled && selectedOption.img ?
-        `fa-solid fa-caret-down` :
+        `fa-solid ${dropup ? 'fa-caret-up' : 'fa-caret-down'}` :
         null
 
     useEffect(() => {
