@@ -1,7 +1,7 @@
 import "./OptionPickerButton.scss"
 import React, {useEffect, useRef, useState} from 'react'
 
-function OptionPickerButton({ mode, options, selectedOptionId, onOptionSelected, tooltipLabel, showSelectedOptionOnDropdown = false }) {
+function OptionPickerButton({ mode, options, selectedOptionId, onOptionSelected, tooltipLabel, showSelectedOptionOnDropdown = false, dropup = false }) {
     const [isOpen, setIsOpen] = useState(false)
     const dropdownRef = useRef(null)
 
@@ -58,7 +58,7 @@ function OptionPickerButton({ mode, options, selectedOptionId, onOptionSelected,
 
     return (
         <div className={`btn-option-picker`} ref={dropdownRef}>
-            <div className={`dropdown`}>
+            <div className={`dropdown ${dropup ? 'dropup' : ''}`}>
                 <button className={`dropdown-toggle btn btn-option-picker-toggle`}
                         onClick={_onToggleClicked}
                         data-tooltip={tooltipLabel}>

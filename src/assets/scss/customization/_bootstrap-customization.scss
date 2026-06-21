@@ -162,7 +162,8 @@ div.card {
     }
 }
 
-div.dropdown {
+div.dropdown,
+div.dropup {
     width: 100%;
 
     button.dropdown-toggle {
@@ -214,6 +215,15 @@ div.dropdown {
 
     a.dropdown-item-no-border {
         border-bottom: 0!important;
+    }
+}
+
+div.dropup {
+    div.dropdown-menu {
+        top: auto;
+        bottom: 100%;
+        margin-left: 10px;
+        margin-bottom: 0;
     }
 }
 

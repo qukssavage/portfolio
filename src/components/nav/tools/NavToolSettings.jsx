@@ -70,7 +70,8 @@ function NavToolSettings({ options }) {
                             options={displayOptions}
                             selectedOptionId={"options"}
                             onOptionSelected={_onOptionClicked}
-                            tooltipLabel={displayOptions[0].label}/>
+                            tooltipLabel={displayOptions[0].label}
+                            dropup={true}/>
     )
 }
 

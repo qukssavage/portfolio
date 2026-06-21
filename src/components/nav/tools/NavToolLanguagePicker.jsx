@@ -33,7 +33,8 @@ function NavToolLanguagePicker() {
                                     options={options}
                                     selectedOptionId={selectedLanguage?.id}
                                     onOptionSelected={_onOptionSelected}
-                                    tooltipLabel={language.getString("select_language")}/>
+                                    tooltipLabel={language.getString("select_language")}
+                                    dropup={true}/>
             )}
         </>
     )
