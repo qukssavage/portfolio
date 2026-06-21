@@ -162,6 +162,16 @@ div.card {
     }
 }
 
+@keyframes dropdown-in {
+    from { opacity: 0; transform: translateY(-8px) scaleY(0.95); }
+    to   { opacity: 1; transform: translateY(0) scaleY(1); }
+}
+
+@keyframes dropup-in {
+    from { opacity: 0; transform: translateY(8px) scaleY(0.95); }
+    to   { opacity: 1; transform: translateY(0) scaleY(1); }
+}
+
 div.dropdown,
 div.dropup {
     width: 100%;
@@ -191,6 +201,11 @@ div.dropup {
         border-radius: 20px;
         border: 2px solid var(--theme-standard-borders);
         background-color: var(--theme-pop-ups-background);
+        transform-origin: top center;
+
+        &.show {
+            animation: dropdown-in 0.2s ease forwards;
+        }
     }
 
     a.dropdown-item {
@@ -224,6 +239,11 @@ div.dropup {
         bottom: 100%;
         margin-left: 10px;
         margin-bottom: 0;
+        transform-origin: bottom center;
+
+        &.show {
+            animation: dropup-in 0.2s ease forwards;
+        }
     }
 }
 
