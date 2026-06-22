@@ -349,60 +349,6 @@
                     }
                 }
             ]
-        },
-
-        {
-            "id": 4,
-            "component": "ArticleSkills",
-            "locales": {
-                "ru": {"title": "Знание {{языков}}"},
-                "en": {"title": "Spoken {{Languages}}"},
-                "uz": {"title": "{{Til}} bilimlari"}
-            },
-            "settings": {
-                "order_items_by": "id",
-                "order_items_sort": "asc",
-                "bar_color": "",
-                "bar_bg_color": ""
-            },
-            "items": [
-                {
-                    "id": 1,
-                    "faIcon": "fa-solid fa-language",
-                    "faIconColors": {"bg": "#4f46e5", "fill": "#ffffff"},
-                    "label": "Русский",
-                    "percentage": 100,
-                    "locales": {
-                        "ru": {"title": "Русский", "level": "Свободно"},
-                        "en": {"title": "Russian", "level": "Fluent"},
-                        "uz": {"title": "Rus tili", "level": "Erkin"}
-                    }
-                },
-                {
-                    "id": 2,
-                    "faIcon": "fa-solid fa-language",
-                    "faIconColors": {"bg": "#0ea5e9", "fill": "#ffffff"},
-                    "label": "English",
-                    "percentage": 90,
-                    "locales": {
-                        "ru": {"title": "Английский", "level": "Свободно"},
-                        "en": {"title": "English", "level": "Fluent"},
-                        "uz": {"title": "Ingliz tili", "level": "Erkin"}
-                    }
-                },
-                {
-                    "id": 3,
-                    "faIcon": "fa-solid fa-language",
-                    "faIconColors": {"bg": "#10b981", "fill": "#ffffff"},
-                    "label": "O'zbekcha",
-                    "percentage": 65,
-                    "locales": {
-                        "ru": {"title": "Узбекский", "level": "Разговорный"},
-                        "en": {"title": "Uzbek", "level": "Conversational"},
-                        "uz": {"title": "O'zbek tili", "level": "So'zlashuv"}
-                    }
-                }
-            ]
         }
     ]
 }
