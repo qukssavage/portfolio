@@ -250,14 +250,14 @@
                 },
                 {
                     "id": 8,
-                    "faIcon": "fa-solid fa-shield-halved",
-                    "faIconColors": {"bg": "#DC2626", "fill": "#ffffff"},
-                    "label": "Cybersecurity",
+                    "faIcon": "fa-brands fa-linux",
+                    "faIconColors": {"bg": "#000000", "fill": "#ffffff"},
+                    "label": "Kali Linux",
                     "value": 40,
                     "locales": {
-                        "ru": {"title": "Кибербезопасность"},
-                        "en": {"title": "Cybersecurity"},
-                        "uz": {"title": "Kiber xavfsizlik"}
+                        "ru": {"title": "Kali Linux"},
+                        "en": {"title": "Kali Linux"},
+                        "uz": {"title": "Kali Linux"}
                     }
                 }
             ]
