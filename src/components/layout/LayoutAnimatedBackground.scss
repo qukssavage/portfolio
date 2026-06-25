@@ -1,21 +1,82 @@
 @import "/src/assets/scss/mixins";
 
+@keyframes lab-float-1 {
+    0%   { transform: translate(0, 0); }
+    33%  { transform: translate(8vw, -6vh); }
+    66%  { transform: translate(-5vw, 10vh); }
+    100% { transform: translate(0, 0); }
+}
+
+@keyframes lab-float-2 {
+    0%   { transform: translate(0, 0); }
+    33%  { transform: translate(-10vw, 8vh); }
+    66%  { transform: translate(6vw, -5vh); }
+    100% { transform: translate(0, 0); }
+}
+
+@keyframes lab-float-3 {
+    0%   { transform: translate(0, 0); }
+    50%  { transform: translate(7vw, 7vh); }
+    100% { transform: translate(0, 0); }
+}
+
+@keyframes lab-float-4 {
+    0%   { transform: translate(0, 0); }
+    50%  { transform: translate(-8vw, -8vh); }
+    100% { transform: translate(0, 0); }
+}
+
 div.layout-animated-background {
     width: 100%;
     height: 100%;
     position: fixed;
     z-index: $z-index-background;
     background-color: var(--theme-background);
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
     overflow: hidden;
     user-select: none;
     pointer-events: none;
 }
 
-#layout-animated-background-canvas {
-    height: 100%;
+.lab-blob {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(80px);
+    opacity: 0.45;
+    will-change: transform;
+}
+
+.lab-blob-1 {
+    width: 40vw;
+    height: 40vw;
+    top: -10%;
+    left: -10%;
+    background-color: var(--theme-background-contrast);
+    animation: lab-float-1 18s ease-in-out infinite;
+}
+
+.lab-blob-2 {
+    width: 35vw;
+    height: 35vw;
+    bottom: -10%;
+    right: -5%;
+    background-color: var(--theme-background-contrast-darken);
+    animation: lab-float-2 22s ease-in-out infinite;
+}
+
+.lab-blob-3 {
+    width: 25vw;
+    height: 25vw;
+    top: 40%;
+    left: 55%;
+    background-color: var(--theme-background-contrast);
+    animation: lab-float-3 16s ease-in-out infinite;
+}
+
+.lab-blob-4 {
+    width: 30vw;
+    height: 30vw;
+    top: 20%;
+    left: 20%;
+    background-color: var(--theme-background-contrast-darken);
+    animation: lab-float-4 25s ease-in-out infinite;
 }
