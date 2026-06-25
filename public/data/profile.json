@@ -14,10 +14,10 @@
             "localized_name_stylized": "[[Темур {{Исламов}}]]",
             "status_message_available_for_freelance": "Открыт для проектов!",
             "roles": [
-                "Мобильный разработчик",
-                "React Native / Flutter",
-                "Python разработчик",
-                "Telegram Bot разработчик"
+                "Fullstack разработчик",
+                "Веб · Мобильные · Боты",
+                "Python & JavaScript",
+                "React · React Native · Flutter"
             ]
         },
         "en": {
@@ -25,10 +25,10 @@
             "localized_name_stylized": "[[Temur {{Islamov}}]]",
             "status_message_available_for_freelance": "Open for projects!",
             "roles": [
-                "Mobile Developer",
-                "React Native / Flutter",
-                "Python Developer",
-                "Telegram Bot Developer"
+                "Fullstack Developer",
+                "Web · Mobile · Bots",
+                "Python & JavaScript",
+                "React · React Native · Flutter"
             ]
         },
         "uz": {
@@ -36,10 +36,10 @@
             "localized_name_stylized": "[[Temur {{Islamov}}]]",
             "status_message_available_for_freelance": "Loyihalarga ochiq!",
             "roles": [
-                "Mobil dasturchi",
-                "React Native / Flutter",
-                "Python dasturchi",
-                "Telegram Bot dasturchi"
+                "Fullstack dasturchi",
+                "Veb · Mobil · Botlar",
+                "Python & JavaScript",
+                "React · React Native · Flutter"
             ]
         }
     }
