@@ -862,6 +862,65 @@
                     }
                 },
                 {
+                    "id": 17,
+                    "categoryId": "category_web",
+                    "img": "",
+                    "faIcon": "fa-solid fa-users",
+                    "faIconColors": {
+                        "bg": "#2563eb",
+                        "fill": "#ffffff"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/qukssavage/crm",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            },
+                            {
+                                "href": "https://qukssavage.github.io/crm/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-globe"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "ru": {
+                            "title": "CRM",
+                            "text": "Простая CRM-система на <b>HTML/CSS/JS</b>.",
+                            "tags": [
+                                "🎓 Pet-проект",
+                                "HTML",
+                                "CSS",
+                                "JavaScript"
+                            ]
+                        },
+                        "en": {
+                            "title": "CRM",
+                            "text": "Simple CRM system built with <b>HTML/CSS/JS</b>.",
+                            "tags": [
+                                "🎓 Pet Project",
+                                "HTML",
+                                "CSS",
+                                "JavaScript"
+                            ]
+                        },
+                        "uz": {
+                            "title": "CRM",
+                            "text": "<b>HTML/CSS/JS</b> bilan qurilgan oddiy CRM tizimi.",
+                            "tags": [
+                                "🎓 Pet-loyiha",
+                                "HTML",
+                                "CSS",
+                                "JavaScript"
+                            ]
+                        }
+                    }
+                },
+                {
                     "id": 15,
                     "categoryId": "category_bots",
                     "img": "",
