@@ -68,13 +68,13 @@
                     "faIconColors": {"bg": "", "fill": ""},
                     "locales": {
                         "ru": {
-                            "text": "<p>Я {{мобильный разработчик}} из [[Ташкента]]. Создаю приложения на <b>React Native</b> и <b>Flutter/Dart</b>, а также разрабатываю веб-сайты на React. Умею выстраивать полный стек: от мобильного клиента до бэкенда на FastAPI.</p><p>Помимо этого пишу <b>Telegram-боты</b> на Python с интеграцией AI (Anthropic API), автоматизирую процессы и деплою на Railway и Render.</p><p>Имею базовые знания в [[кибербезопасности]] — окончил MDIST Computer Information Systems for Business. Открыт для новых проектов!</p>"
+                            "text": "<p>Я {{fullstack разработчик}} из [[Ташкента]]. Пишу веб-приложения на <b>React</b>, мобильные приложения на <b>React Native</b> и <b>Flutter/Dart</b>, бэкенд на <b>FastAPI + PostgreSQL</b>.</p><p>Разрабатываю <b>Telegram-боты</b> на Python с интеграцией AI (Anthropic API), автоматизирую процессы и деплою на Railway и Render.</p><p>Окончил MDIST Computer Information Systems for Business. Открыт для новых проектов!</p>"
                         },
                         "en": {
-                            "text": "<p>I'm a {{mobile developer}} from [[Tashkent]]. I build apps with <b>React Native</b> and <b>Flutter/Dart</b>, and create web apps with React. I cover the full stack — from mobile client to FastAPI backend.</p><p>I also build <b>Telegram bots</b> in Python with AI integration (Anthropic API), automate workflows, and deploy to Railway and Render.</p><p>I have foundational knowledge in [[cybersecurity]] — graduated from MDIST Computer Information Systems for Business. Open to new projects!</p>"
+                            "text": "<p>I'm a {{fullstack developer}} from [[Tashkent]]. I build web apps with <b>React</b>, mobile apps with <b>React Native</b> and <b>Flutter/Dart</b>, and backends with <b>FastAPI + PostgreSQL</b>.</p><p>I also build <b>Telegram bots</b> in Python with AI integration (Anthropic API), automate workflows, and deploy to Railway and Render.</p><p>Graduated from MDIST Computer Information Systems for Business. Open to new projects!</p>"
                         },
                         "uz": {
-                            "text": "<p>Men [[Toshkent]]dan {{mobil dasturchi}}man. <b>React Native</b> va <b>Flutter/Dart</b> bilan ilovalar yarataman, React bilan veb-saytlar ham qilaman. Mobil client'dan FastAPI backend'ga to'liq stekni yopaman.</p><p>Bundan tashqari Python'da <b>Telegram-botlar</b> yozaman: AI integratsiya (Anthropic API), avtomatlashtirish, Railway va Render'ga deploy.</p><p>[[Kibersecurity]] sohasida asosiy bilimlarim bor — MDIST CIS for Business bitirganman. Yangi loyihalarga ochiqman!</p>"
+                            "text": "<p>Men [[Toshkent]]dan {{fullstack dasturchi}}man. <b>React</b> bilan veb-ilovalar, <b>React Native</b> va <b>Flutter/Dart</b> bilan mobil ilovalar, <b>FastAPI + PostgreSQL</b> bilan backend yozaman.</p><p>Python'da <b>Telegram-botlar</b> yarataman: AI integratsiya (Anthropic API), avtomatlashtirish, Railway va Render'ga deploy.</p><p>MDIST Computer Information Systems for Business bitirganman. Yangi loyihalarga ochiqman!</p>"
                         }
                     }
                 }
