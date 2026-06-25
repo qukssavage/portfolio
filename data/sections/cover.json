@@ -68,13 +68,13 @@
                     "faIconColors": {"bg": "", "fill": ""},
                     "locales": {
                         "ru": {
-                            "text": "<p>Я {{fullstack разработчик}} из [[Ташкента]]. Пишу веб-приложения на <b>React</b>, мобильные приложения на <b>React Native</b> и <b>Flutter/Dart</b>, бэкенд на <b>FastAPI + PostgreSQL</b>.</p><p>Разрабатываю <b>Telegram-боты</b> на Python с интеграцией AI (Anthropic API), автоматизирую процессы и деплою на Railway и Render.</p><p>Окончил MDIST Computer Information Systems for Business. Открыт для новых проектов!</p>"
+                            "text": "<p>Я создаю то, что {{работает}} — Telegram-боты, веб-приложения, мобильные приложения и CRM-системы для реального бизнеса.</p><p>Последние проекты: AI-бот для логистики, которым пользуются диспетчерские компании в грузоперевозках; CRM для недвижимости с интеграцией Telegram-канала; бот-анкетировщик, собравший [[937+ ответов]] для школы в Ташкенте.</p><p>Стек: <b>Python · aiogram · Claude AI · React · Flutter · FastAPI · PostgreSQL</b></p><p>Нахожусь в [[Ташкенте, Узбекистан]]. Открыт для новых проектов.</p>"
                         },
                         "en": {
-                            "text": "<p>I'm a {{fullstack developer}} from [[Tashkent]]. I build web apps with <b>React</b>, mobile apps with <b>React Native</b> and <b>Flutter/Dart</b>, and backends with <b>FastAPI + PostgreSQL</b>.</p><p>I also build <b>Telegram bots</b> in Python with AI integration (Anthropic API), automate workflows, and deploy to Railway and Render.</p><p>Graduated from MDIST Computer Information Systems for Business. Open to new projects!</p>"
+                            "text": "<p>I build things that {{work}} — Telegram bots, web apps, mobile apps, and CRM systems for real businesses.</p><p>My recent projects: an AI-powered logistics bot used by trucking dispatch companies; a real estate CRM with Telegram channel integration; and a survey bot that collected [[937+ responses]] for a school in Tashkent.</p><p>Stack: <b>Python · aiogram · Claude AI · React · Flutter · FastAPI · PostgreSQL</b></p><p>Based in [[Tashkent, Uzbekistan]]. Open to new projects.</p>"
                         },
                         "uz": {
-                            "text": "<p>Men [[Toshkent]]dan {{fullstack dasturchi}}man. <b>React</b> bilan veb-ilovalar, <b>React Native</b> va <b>Flutter/Dart</b> bilan mobil ilovalar, <b>FastAPI + PostgreSQL</b> bilan backend yozaman.</p><p>Python'da <b>Telegram-botlar</b> yarataman: AI integratsiya (Anthropic API), avtomatlashtirish, Railway va Render'ga deploy.</p><p>MDIST Computer Information Systems for Business bitirganman. Yangi loyihalarga ochiqman!</p>"
+                            "text": "<p>Men {{ishlaydigan}} narsalar yarataman — Telegram botlar, veb-ilovalar, mobil ilovalar va haqiqiy biznes uchun CRM tizimlar.</p><p>So'nggi loyihalar: yuk tashish dispetcherlik kompaniyalari foydalanadigan AI-logistika boti; Telegram-kanal integratsiyali ko'chmas mulk CRM; Toshkentdagi maktab uchun [[937+ javob]] to'plagan so'rovnoma boti.</p><p>Stek: <b>Python · aiogram · Claude AI · React · Flutter · FastAPI · PostgreSQL</b></p><p>[[Toshkent, O'zbekiston]]da yashayman. Yangi loyihalarga ochiqman.</p>"
                         }
                     }
                 }
