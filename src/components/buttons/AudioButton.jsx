@@ -14,7 +14,7 @@ function AudioButton({ url = "", tooltip = "", size = "", buttonClassName = "", 
     const shouldShowStaticTooltip = Boolean(tooltip)
 
     const statusIconMap = {
-        [AudioButton.Status.LOADING]: "fa-solid fa-spinner pi-spin",
+        [AudioButton.Status.LOADING]: "fa-solid fa-spinner fa-spin",
         [AudioButton.Status.PLAYING]: "fa-solid fa-pause",
         [AudioButton.Status.COMPLETED]: "fa-solid fa-volume-high",
     }

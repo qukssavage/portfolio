@@ -4,9 +4,7 @@ import {useScheduler} from "/src/hooks/scheduler.js"
 import {useLanguage} from "/src/providers/LanguageProvider.jsx"
 import ActivitySpinner from "/src/components/loaders/ActivitySpinner.jsx"
 import NotificationsLayer from "/src/components/notifications/NotificationsLayer.jsx"
-import YoutubeVideoModal from "/src/components/modals/YoutubeVideoModal.jsx"
 import ConfirmationWindowModal from "/src/components/modals/ConfirmationWindowModal.jsx"
-import GalleryModal from "/src/components/modals/GalleryModal.jsx"
 
 function FeedbacksProvider({ children }) {
     const scheduler = useScheduler()
@@ -14,8 +12,6 @@ function FeedbacksProvider({ children }) {
 
     const [spinnerActivities, setSpinnerActivities] = useState([])
     const [displayingNotification, setDisplayingNotification] = useState(null)
-    const [displayingYoutubeVideo, setDisplayingYoutubeVideo] = useState(null)
-    const [displayingGallery, setDisplayingGallery] = useState(null)
     const [pendingConfirmation, setPendingConfirmation] = useState(null)
 
     const setActivitySpinnerVisible = (visible, activityId, message) => {
@@ -54,30 +50,6 @@ function FeedbacksProvider({ children }) {
         setDisplayingNotification(null)
     }
 
-    const displayYoutubeVideo = (url, title, description) => {
-        setDisplayingYoutubeVideo({
-            url: url,
-            title: title,
-            description: description
-        })
-    }
-
-    const closeYoutubeVideo = () => {
-        setDisplayingYoutubeVideo(null)
-    }
-
-    const displayGallery = (images, type, title) => {
-        setDisplayingGallery({
-            images: images,
-            type: type,
-            title: title
-        })
-    }
-
-    const closeGallery = () => {
-        setDisplayingGallery(null)
-    }
-
     const showConfirmationDialog = (title, message, faIcon, onConfirm, confirmLabel, onCancel, cancelLabel) => {
         setPendingConfirmation({
             title: title,
@@ -93,8 +65,6 @@ function FeedbacksProvider({ children }) {
     const isBlockedByOverlay = () => {
         return Boolean(
             isShowingActivitySpinner() ||
-            displayingYoutubeVideo ||
-            displayingGallery ||
             pendingConfirmation
         )
     }
@@ -108,12 +78,6 @@ function FeedbacksProvider({ children }) {
             displayNotification,
             killNotification,
 
-            displayYoutubeVideo,
-            closeYoutubeVideo,
-
-            displayGallery,
-            closeGallery,
-
             showConfirmationDialog,
             isBlockedByOverlay
         }}>
@@ -123,14 +87,8 @@ function FeedbacksProvider({ children }) {
             <NotificationsLayer target={displayingNotification}
                                 onNotificationDismissed={killNotification}/>
 
-            <YoutubeVideoModal target={displayingYoutubeVideo}
-                               onDismiss={closeYoutubeVideo}/>
-
             <ConfirmationWindowModal target={pendingConfirmation}
                                      onDismiss={() => {setPendingConfirmation(null)}}/>
-
-            <GalleryModal target={displayingGallery}
-                          onDismiss={closeGallery}/>
 
             {children}
         </FeedbacksContext.Provider>

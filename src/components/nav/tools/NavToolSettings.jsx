@@ -2,14 +2,10 @@ import React from 'react'
 import {useLanguage} from "/src/providers/LanguageProvider.jsx"
 import OptionPickerButton from "/src/components/buttons/OptionPickerButton.jsx"
 import {useTheme} from "/src/providers/ThemeProvider.jsx"
-import {useData} from "/src/providers/DataProvider.jsx"
-import {useUtils} from "/src/hooks/utils.js"
 
 function NavToolSettings({ options }) {
     const theme = useTheme()
     const language = useLanguage()
-    const data = useData()
-    const utils = useUtils()
 
     const displayOptions = [{
         id: "options",
@@ -27,26 +23,9 @@ function NavToolSettings({ options }) {
         })
     }
 
-    if(options.includes(NavToolSettings.Options.DOWNLOAD_RESUME)) {
-        displayOptions.push({
-            id: NavToolSettings.Options.DOWNLOAD_RESUME,
-            faIcon: "fa-solid fa-file-arrow-down",
-            label: language.getString("download_resume")
-        })
-    }
-
     const _onOptionClicked = (optionId) => {
-        switch (optionId) {
-            case NavToolSettings.Options.THEME:
-                theme.toggle()
-                break
-
-            case NavToolSettings.Options.DOWNLOAD_RESUME:
-                const profile = data.getProfile()
-                const resumeUrl = profile.resumePdfUrl
-                utils.file.download(resumeUrl)
-                break
-        }
+        if(optionId === NavToolSettings.Options.THEME)
+            theme.toggle()
     }
 
     return (
@@ -60,7 +39,6 @@ function NavToolSettings({ options }) {
 }
 
 NavToolSettings.Options = {
-    DOWNLOAD_RESUME: "download_resume",
     THEME: "theme"
 }
 
