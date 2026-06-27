@@ -2,7 +2,6 @@ import "./SectionBody.scss"
 import React from 'react'
 import {useParser} from "/src/hooks/parser.js"
 import ArticleCards from "/src/components/articles/ArticleCards.jsx"
-import ArticleContactForm from "/src/components/articles/ArticleContactForm.jsx"
 import ArticleInfoList from "/src/components/articles/ArticleInfoList.jsx"
 import ArticleInlineList from "/src/components/articles/ArticleInlineList.jsx"
 import ArticleNotFound from "/src/components/articles/ArticleNotFound.jsx"
@@ -29,7 +28,6 @@ function SectionBody({ section }) {
 
 SectionBody.ARTICLES = {
     ArticleCards,
-    ArticleContactForm,
     ArticleInfoList,
     ArticleInlineList,
     ArticleNotFound,

@@ -1,5 +1,4 @@
 import React, {useEffect, useState} from 'react'
-import {useApi} from "/src/hooks/api.js"
 import {useConstants} from "/src/hooks/constants.js"
 import {useUtils} from "/src/hooks/utils.js"
 import Preloader from "/src/components/loaders/Preloader.jsx"
@@ -24,7 +23,6 @@ const App = () => {
 }
 
 const AppEssentialsWrapper = ({ children }) => {
-    const api = useApi()
     const utils = useUtils()
     const constants = useConstants()
 
@@ -40,7 +38,6 @@ const AppEssentialsWrapper = ({ children }) => {
 
         })
 
-        api.analytics.reportVisit().then(() => {})
     }, [])
 
     const _applyDeveloperSettings = (settings) => {
