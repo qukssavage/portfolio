@@ -13,7 +13,7 @@ function NavHeaderMobile({ profile, links }) {
                                 expanded={true}/>
 
                 <div className={`left-tool-container`}>
-                    <NavToolLanguagePicker/>
+                    <NavToolLanguagePicker dropup={false}/>
                 </div>
 
                 <div className={`right-tool-container`}>

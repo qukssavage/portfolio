@@ -3,7 +3,7 @@ import {useLanguage} from "/src/providers/LanguageProvider.jsx"
 import OptionPickerButton from "/src/components/buttons/OptionPickerButton.jsx"
 import {useUtils} from "/src/hooks/utils.js"
 
-function NavToolLanguagePicker() {
+function NavToolLanguagePicker({ dropup = true }) {
     const language = useLanguage()
     const utils = useUtils()
 
@@ -35,7 +35,7 @@ function NavToolLanguagePicker() {
                                     onOptionSelected={_onOptionSelected}
                                     tooltipLabel={language.getString("select_language")}
                                     showSelectedOptionOnDropdown={true}
-                                    dropup={true}/>
+                                    dropup={dropup}/>
             )}
         </>
     )
