@@ -3,7 +3,6 @@ import React, {createContext, useContext, useState} from 'react'
 import {useScheduler} from "/src/hooks/scheduler.js"
 import {useLanguage} from "/src/providers/LanguageProvider.jsx"
 import ActivitySpinner from "/src/components/loaders/ActivitySpinner.jsx"
-import NotificationsLayer from "/src/components/notifications/NotificationsLayer.jsx"
 import ConfirmationWindowModal from "/src/components/modals/ConfirmationWindowModal.jsx"
 
 function FeedbacksProvider({ children }) {
@@ -11,7 +10,6 @@ function FeedbacksProvider({ children }) {
     const language = useLanguage()
 
     const [spinnerActivities, setSpinnerActivities] = useState([])
-    const [displayingNotification, setDisplayingNotification] = useState(null)
     const [pendingConfirmation, setPendingConfirmation] = useState(null)
 
     const setActivitySpinnerVisible = (visible, activityId, message) => {
@@ -36,18 +34,6 @@ function FeedbacksProvider({ children }) {
 
     const isShowingActivitySpinner = () => {
         return Boolean(spinnerActivities.length)
-    }
-
-    const displayNotification = (title, message, type) => {
-        setDisplayingNotification({
-            type: type,
-            title: title,
-            message: message
-        })
-    }
-
-    const killNotification = () => {
-        setDisplayingNotification(null)
     }
 
     const showConfirmationDialog = (title, message, faIcon, onConfirm, confirmLabel, onCancel, cancelLabel) => {
@@ -75,17 +61,11 @@ function FeedbacksProvider({ children }) {
             showActivitySpinnerFor,
             isShowingActivitySpinner,
 
-            displayNotification,
-            killNotification,
-
             showConfirmationDialog,
             isBlockedByOverlay
         }}>
             <ActivitySpinner activities={spinnerActivities}
                              defaultMessage={language.getString("loading")}/>
-
-            <NotificationsLayer target={displayingNotification}
-                                onNotificationDismissed={killNotification}/>
 
             <ConfirmationWindowModal target={pendingConfirmation}
                                      onDismiss={() => {setPendingConfirmation(null)}}/>
