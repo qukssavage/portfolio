@@ -1,11 +1,9 @@
 import "./AudioButton.scss"
 import React, {useEffect, useRef, useState} from 'react'
 import {useUtils} from "/src/hooks/utils.js"
-import {useFeedbacks} from "/src/providers/FeedbacksProvider.jsx"
 import HoverStaticTooltip from "/src/components/widgets/HoverStaticTooltip.jsx"
 
 function AudioButton({ url = "", tooltip = "", size = "", buttonClassName = "", tooltipClassName = "" }) {
-    const feedbacks = useFeedbacks()
     const utils = useUtils()
 
     const audioRef = useRef(null)
@@ -13,8 +11,7 @@ function AudioButton({ url = "", tooltip = "", size = "", buttonClassName = "", 
     const [status, setStatus] = useState(AudioButton.Status.NONE)
     const [playCount, setPlayCount] = useState(0)
 
-    const isMagicCursorEnabledAndActive = feedbacks.animatedCursorEnabled && feedbacks.animatedCursorActive
-    const shouldShowStaticTooltip = tooltip && !isMagicCursorEnabledAndActive
+    const shouldShowStaticTooltip = Boolean(tooltip)
 
     const statusIconMap = {
         [AudioButton.Status.LOADING]: "fa-solid fa-spinner pi-spin",
