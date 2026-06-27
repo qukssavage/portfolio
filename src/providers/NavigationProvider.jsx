@@ -128,8 +128,6 @@ function NavigationProvider({ children, sections, categories }) {
         const isRunning = transitionStatus === NavigationProvider.TransitionStatus.RUNNING
         const isFinishing = transitionStatus === NavigationProvider.TransitionStatus.FINISHING
 
-        feedbacks.setAnimatedCursorLocked(isRunning)
-
         if(isFinishing) _finishTransition()
     }, [transitionStatus])
 
