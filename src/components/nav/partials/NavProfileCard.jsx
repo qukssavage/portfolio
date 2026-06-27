@@ -6,7 +6,6 @@ import {useUtils} from "/src/hooks/utils.js"
 import ImageView from "/src/components/generic/ImageView.jsx"
 import StatusCircle from "/src/components/generic/StatusCircle.jsx"
 import TextTyper from "/src/components/generic/TextTyper.jsx"
-import AudioButton from "/src/components/buttons/AudioButton.jsx"
 
 function NavProfileCard({ profile, expanded }) {
     const language = useLanguage()
@@ -41,14 +40,6 @@ function NavProfileCard({ profile, expanded }) {
         StatusCircle.Sizes.DEFAULT :
         StatusCircle.Sizes.SMALL
 
-    const namePronunciationIpa = language.getTranslation(profile.locales, "name_pronunciation_ipa", null)
-    const namePronunciationAudioUrl = language.getTranslation(profile.locales, "name_pronunciation_audio_url", null)
-    const namePronunciationButtonVisible = namePronunciationIpa || namePronunciationAudioUrl
-
-    const navProfileCardNameClass = namePronunciationButtonVisible ?
-        `nav-profile-card-name-with-audio-button` :
-        ``
-
     const _onStatusBadgeClicked = () => {
         navigation.navigateToSectionWithId("contact")
     }
@@ -68,13 +59,8 @@ function NavProfileCard({ profile, expanded }) {
             )}
 
             <div className={`nav-profile-card-info`}>
-                <h1 className={`nav-profile-card-name ${navProfileCardNameClass}`}>
+                <h1 className={`nav-profile-card-name`}>
                     <span dangerouslySetInnerHTML={{__html: stylizedName}}/>
-                    {namePronunciationButtonVisible && (
-                        <AudioButton url={namePronunciationAudioUrl}
-                                     tooltip={namePronunciationIpa}
-                                     size={AudioButton.Sizes.DYNAMIC_FOR_NAV_TITLE}/>
-                    )}
                 </h1>
 
                 {roles?.length > 1 && (
