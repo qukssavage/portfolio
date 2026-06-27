@@ -7,7 +7,6 @@ import {_deviceUtils} from "./utils/_device-utils.js"
 import {_domUtils} from "./utils/_dom-utils.js"
 import {_fileUtils} from "./utils/_file-utils.js"
 import {_jsonUtils} from "./utils/_json-utils.js"
-import {_loggingUtils} from "./utils/_logging-utils.js"
 import {_numberUtils} from "./utils/_number-utils.js"
 import {_storageUtils} from "./utils/_storage-utils.js"
 import {_stringUtils} from "./utils/_string-utils.js"
@@ -23,8 +22,7 @@ export const useUtils = () => {
     const dom = _domUtils
     const file = _fileUtils
     const json = _jsonUtils
-    const log = _loggingUtils
-    const number = _numberUtils
+const number = _numberUtils
     const storage = _storageUtils
     const string = _stringUtils
     const url = _urlUtils
@@ -39,7 +37,6 @@ export const useUtils = () => {
         dom,
         file,
         json,
-        log,
         number,
         storage,
         string,

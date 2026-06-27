@@ -138,7 +138,6 @@ export default class ArticleItemDataWrapper {
         let screenshotsAspectRatio = rawPreview["screenshotsAspectRatio"]
         if(screenshots.length > 0 && supportedRatios.indexOf(screenshotsAspectRatio) === -1) {
             screenshotsAspectRatio = "1:1"
-            utils.log.warn("ArticleItemDataWrapper", "Invalid screenshotsAspectRatio value. Supported values are: " + supportedRatios.join(", ") + ". Using default value 1:1.")
         }
 
         return {

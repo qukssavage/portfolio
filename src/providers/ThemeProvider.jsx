@@ -21,12 +21,7 @@ function ThemeProvider({ children, supportedThemes, defaultThemeId, showSpinnerO
 
     
     useEffect(() => {
-        if(allThemes.length === 0) {
-            utils.log.throwError("ThemeProvider", "The app must support at least one theme. Make sure you filled the supportedThemes property in the settings.json file.")
-            return
-        }
-
-        const savedThemeId = utils.storage.getPreferredTheme()
+const savedThemeId = utils.storage.getPreferredTheme()
         const savedTheme = allThemes.find(theme => theme.id === savedThemeId)
         setSelectedTheme(savedTheme || defaultTheme)
     }, [])

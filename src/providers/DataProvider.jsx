@@ -51,12 +51,6 @@ function DataProvider({ children, settings }) {
         if(status !== DataProviderStatus.STATUS_LOADED)
             return
 
-        const validation = _validateData()
-        if(!validation.success) {
-            utils.log.throwError("DataProvider", validation.message)
-            return
-        }
-
         setStatus(DataProviderStatus.STATUS_EVALUATED)
     }, [status === DataProviderStatus.STATUS_LOADED])
 
@@ -88,12 +82,9 @@ function DataProvider({ children, settings }) {
         for(const section of sections) {
             const sectionCategoryId = section["categoryId"]
             const sectionCategory = categories.find(category => category.id === sectionCategoryId)
-            if(!sectionCategory) {
-                utils.log.throwError("DataProvider", `Section with id "${section.id}" has invalid category id "${sectionCategoryId}". Make sure the category exists within categories.json`)
-                return
-            }
+            if(!sectionCategory) continue
 
-            sectionCategory.sections.push(section)
+sectionCategory.sections.push(section)
             section.category = sectionCategory
         }
     }
@@ -115,20 +106,7 @@ function DataProvider({ children, settings }) {
         }
     }
 
-    const _validateData = () => {
-        const emptyCategories = jsonData.categories.filter(category => category.sections.length === 0)
-        const emptyCategoriesIds = emptyCategories.map(category => category.id)
-        if(emptyCategories.length > 0) {
-            return {
-                success: false,
-                message: `The following ${emptyCategories.length} categories are empty: "${emptyCategoriesIds}". Make sure all categories have at least one section.`
-            }
-        }
-
-        return {success: true}
-    }
-
-    const getProfile = () => {
+const getProfile = () => {
         return jsonData?.profile || {}
     }
 

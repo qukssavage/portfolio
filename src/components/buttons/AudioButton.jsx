@@ -55,10 +55,7 @@ function AudioButton({ url = "", tooltip = "", size = "", buttonClassName = "", 
         audioRef.current.addEventListener("ended", () => {
             _stopAudio()
         })
-        audioRef.current.addEventListener("error", () => {
-            _reset()
-            utils.log.warn("AudioButton", "Couldn't load audio from URL: " + resolvedPath)
-        })
+        audioRef.current.addEventListener("error", _reset)
     }
 
     const _playAudio = () => {

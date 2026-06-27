@@ -23,8 +23,7 @@ export const _fileUtils = {
 
             return await response.json()
         }
-        catch (error) {
-            console.error(`Failed to load JSON from ${resolvedPath}:`, error)
+        catch {
             return null
         }
     },

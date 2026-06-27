@@ -21,12 +21,7 @@ function LanguageProvider({ children, supportedLanguages, defaultLanguageId, app
 
     
     useEffect(() => {
-        if(allLanguages.length === 0) {
-            utils.log.throwError("LanguageProvider", "The app must support at least one language. Make sure you filled the supportedLanguages property in the settings.json file.")
-            return
-        }
-
-        const savedLanguageId = utils.storage.getPreferredLanguage()
+const savedLanguageId = utils.storage.getPreferredLanguage()
         const savedLanguage = allLanguages.find(lang => lang.id === savedLanguageId)
         if(savedLanguage) {
             setSelectedLanguageId(savedLanguageId)

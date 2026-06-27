@@ -126,16 +126,5 @@ export default class ArticleDataWrapper {
         })
     }
 
-    _evaluate() {
-
-        const categories = this.categories.map(category => category.id)
-        this._items.forEach(item => {
-            if(categories.length > 1 && !categories.includes(item.categoryId)) {
-                utils.log.warn(
-                    "ArticleDataWrapper",
-                    `Item ${item.id} has an invalid categoryId "${item.categoryId}".`
-                )
-            }
-        })
-    }
+    _evaluate() {}
 }
