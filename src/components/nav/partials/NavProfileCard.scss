@@ -23,8 +23,7 @@ div.nav-profile-card {
         width: var(--avatar-size);
         height: var(--avatar-size);
         border: var(--border-size) solid var(--theme-card-background-accent);
-        border-radius: calc($standard-border-radius * 2);
-        border-top-right-radius: 0;
+        border-radius: 100%;
     }
 
     &-status-circle {
