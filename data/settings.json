@@ -66,16 +66,5 @@
         }
     ],
 
-    "consoleMessageForDevelopers": {
-        "title": "👋 Привет, разработчик!",
-        "items": [
-            {
-                "description": "Это портфолио Темура — Python/React разработчика из Ташкента.",
-                "list": [],
-                "listStyle": "none"
-            }
-        ]
-    },
-
-    "imagesToCache": []
+"imagesToCache": []
 }
