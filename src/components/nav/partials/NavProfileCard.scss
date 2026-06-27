@@ -84,7 +84,7 @@ div.nav-profile-card-shrink {
     --offset-status-circle: 12px;
 
     div.nav-profile-card-avatar {
-        border-radius: calc($standard-border-radius * 2)!important;
+        border-radius: 100%!important;
     }
 
     div.nav-profile-card-info {
