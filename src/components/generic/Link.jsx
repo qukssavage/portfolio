@@ -1,5 +1,5 @@
 import "./Link.scss"
-import React, {useEffect, useState} from 'react'
+import React from 'react'
 import {useFeedbacks} from "/src/providers/FeedbacksProvider.jsx"
 import {useLanguage} from "/src/providers/LanguageProvider.jsx"
 import {useLocation} from "/src/providers/LocationProvider.jsx"
@@ -17,11 +17,11 @@ function Link({ id = null, className = "", href, children, tooltip = null, metad
         `link-no-href` :
         ``
 
-    const _onMouseEnter = (e) => {
+    const _onMouseEnter = () => {
         onHoverStatus && onHoverStatus(true)
     }
 
-    const _onMouseLeave = (e) => {
+    const _onMouseLeave = () => {
         onHoverStatus && onHoverStatus(false)
     }
 
@@ -48,33 +48,10 @@ function Link({ id = null, className = "", href, children, tooltip = null, metad
     const _open = () => {
         if(href.startsWith("#cat:"))
             location.goToCategoryWithId(href.replaceAll("#cat:", ""))
-        else if(href.startsWith("#gallery:open"))
-            _openGalleryLink()
         else if(href.startsWith("#"))
             location.goToSectionWithId(href.replaceAll("#", ""))
-        else if(href.includes("youtube.com/embed") || href.includes("youtube.com/watch?v="))
-            _openYoutubeLink()
         else
             _openExternalLink()
-    }
-
-    const _openYoutubeLink = () => {
-        feedbacks.displayYoutubeVideo(
-            href,
-            metadata?.title || language.getString("watch_video"),
-            metadata?.description
-        )
-    }
-
-    const _openGalleryLink = () => {
-        if(!metadata || !metadata.images?.length)
-            return
-
-        feedbacks.displayGallery(
-            metadata.images,
-            metadata.aspectRatio || "1:1",
-            metadata.title || language.getString("gallery")
-        )
     }
 
     const _openExternalLink = () => {
